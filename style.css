@@ -1,0 +1,25 @@
+/*---------------------------------------------------------------------------------
+
+	Theme Name: Hamilton Child Theme
+	Version: 1.0
+	Description: Hamilton Child Theme
+	Author: Matt Fried
+	Author URI: https://mattfried.ca/
+  Template: Hamilton
+
+
+  ** Theme customization starts here **
+----------------------------------------------------------------------------------- */
+
+/* .site-footer p:last-child,
+footer:last-child p {
+	font-weight: 300;
+} */
+
+footer a {
+	border-bottom: .1rem solid transparent;
+}
+
+footer p + p a:hover {
+	border-bottom-color: rgba( 0, 0, 0, .35 );
+}
