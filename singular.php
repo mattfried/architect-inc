@@ -44,6 +44,36 @@ if ( have_posts() )  :
 
 			</header><!-- .page-header -->
 
+
+
+
+			<?php if ( is_page( "Featured Work" ) ) : ?>
+
+				<div class="posts" id="posts">
+
+				<?php $postslist = get_posts( array(
+			    'order'          => 'ASC',
+			    'orderby'        => 'rand',
+					// 'category_name'  =>	'residential'
+				) );
+
+				if ( $postslist ) {
+				    foreach ( $postslist as $post ) :
+				        setup_postdata( $post );
+				        ?>
+				        <?php get_template_part( 'content' ); ?>
+				    <?php
+				    endforeach;
+				    wp_reset_postdata();
+					} ?>
+
+				<?php endif; ?>
+
+			</div> <!-- .posts -->
+
+
+
+
 			<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
 
 				<div class="featured-image">
