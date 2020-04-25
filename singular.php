@@ -46,7 +46,7 @@ if ( have_posts() )  :
 
 
 
-
+			<!-- Display posts if page name is "Featured Work" -->
 			<?php if ( is_page( "Featured Work" ) ) : ?>
 
 				<div class="posts" id="posts">
@@ -54,16 +54,17 @@ if ( have_posts() )  :
 				<?php $postslist = get_posts( array(
 			    'order'          => 'ASC',
 			    'orderby'        => 'rand',
-					// 'category_name'  =>	'residential'
+					// Display posts only in certain category option:
+					// 'category_name'  =>	'category-slug'
 				) );
 
 				if ( $postslist ) {
 				    foreach ( $postslist as $post ) :
 				        setup_postdata( $post );
-				        ?>
-				        <?php get_template_part( 'content' ); ?>
-				    <?php
-				    endforeach;
+
+								get_template_part( 'content' );
+
+							endforeach;
 				    wp_reset_postdata();
 					} ?>
 
