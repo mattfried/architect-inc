@@ -16,10 +16,34 @@ footer:last-child p {
 	font-weight: 300;
 } */
 
+
+/* header/footer font size/colors */
 footer a {
 	border-bottom: .1rem solid transparent;
 }
 
 footer p + p a:hover {
 	border-bottom-color: rgba( 0, 0, 0, .35 );
+}
+
+footer .theme-by,
+.site-footer .theme-by {
+	font-size: 14px;
+}
+
+/* footer content alignment */
+.social-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+	margin-bottom: 20px;
+}
+
+.social-icons a img {
+	min-width: 20px;
+	max-width: 20px;
+	min-height: 20px;
+	max-height: 20px;
+	margin: 0 8px;
 }
