@@ -16,7 +16,7 @@ if ( have_posts() )  :
 					the_title( '<h1 class="title">', '</h1>' );
 
 					// Make sure we have a custom excerpt
-					if ( has_excerpt() ) the_excerpt();
+					if ( has_excerpt() ) echo '<p class="excerpt">' . get_the_excerpt() . '</p>';
 
 					// Only output post meta data on single
 					if ( is_single() ) : ?>
@@ -24,7 +24,7 @@ if ( have_posts() )  :
 						<div class="meta">
 
 							<?php
-							echo __( 'In', 'hamilton' ) . ' '; the_category( ', ' );
+							echo __( '', 'hamilton' ) . ' '; the_category( ', ' );
 
 							if ( comments_open() ) : ?>
 								<span>&bull;</span>
@@ -105,7 +105,9 @@ if ( have_posts() )  :
 
 					<?php endif; ?>
 
+					<!--
 					<p><a href="<?php the_permalink(); ?>" title="<?php the_time( get_option( 'date_format' ) ); ?> <?php the_time( get_option( 'time_format' ) ); ?>"><?php the_date( get_option( 'date_format' ) ); ?></a>
+					-->
 
 				</div> <!-- .meta -->
 

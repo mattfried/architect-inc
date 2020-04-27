@@ -11,10 +11,20 @@
   ** Theme customization starts here **
 ----------------------------------------------------------------------------------- */
 
-/* .site-footer p:last-child,
-footer:last-child p {
+/* work project excerpt */
+.page-header .excerpt,
+.meta a {
 	font-weight: 300;
-} */
+	font-size: 22px;
+}
+
+.page-header .meta {
+	margin-top: 0;
+}
+
+.meta a {
+	color: black;
+}
 
 
 /* header/footer font size/colors */
