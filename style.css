@@ -11,21 +11,8 @@
   ** Theme customization starts here **
 ----------------------------------------------------------------------------------- */
 
-/* work project excerpt */
-.page-header .excerpt,
-.meta a {
-	font-weight: 300;
-	font-size: 20px;
-}
 
-.page-header .meta {
-	margin-top: 0;
-}
-
-.meta a {
-	color: black;
-}
-
+/* Header & Footer ------------------------------------- */
 
 /* header/footer font size/colors */
 footer a {
@@ -56,4 +43,47 @@ footer .theme-by,
 	min-height: 20px;
 	max-height: 20px;
 	margin: 0 8px;
+}
+
+
+
+
+
+/* Work Page ------------------------------------- */
+
+/* work project excerpt */
+.page-header .excerpt,
+.meta a {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.page-header .meta {
+	margin-top: 0;
+}
+
+.meta a {
+	color: black;
+}
+
+
+
+
+
+/* Contact Form ------------------------------------- */
+
+/* field labels */
+.nf-form-layout .nf-field-label label {
+	color: blue;
+}
+
+/* field element */
+.nf-form-layout .nf-field-element .nf-element {
+	background-color: inherit;
+	border: 1px solid #979797;
+}
+
+/* submit button */
+.nf-form-layout nf-fields-wrap nf-field:last-child .nf-field-element .nf-element {
+	color: orange;
 }
