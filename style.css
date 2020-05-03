@@ -74,16 +74,66 @@ footer .theme-by,
 
 /* field labels */
 .nf-form-layout .nf-field-label label {
-	color: blue;
+	font-weight: 300;
 }
 
 /* field element */
 .nf-form-layout .nf-field-element .nf-element {
 	background-color: inherit;
 	border: 1px solid #979797;
+	font-weight: 400;
 }
 
 /* submit button */
 .nf-form-layout nf-fields-wrap nf-field:last-child .nf-field-element .nf-element {
-	color: orange;
+	color: black;
+}
+
+.nf-form-layout nf-fields-wrap nf-field:last-child .nf-field-element .nf-element:hover {
+	color: white;
+	background-color: black;
+}
+
+/* error messages */
+
+.nf-form-fields-required,
+.ninja-forms-req-symbol {
+	display: none;
+}
+
+.nf-after-field .nf-error-msg {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+}
+
+/* error symbol */
+.nf-error.field-wrap .nf-field-element:after {
+	background-color: white !important;
+	color: rgba(232, 0, 0, 0.7) !important;
+}
+
+/* element error border */
+.nf-error .ninja-forms-field {
+	border-color: rgba(232, 0, 0, 0.7) !important;
+}
+
+.nf-error-field-errors {
+	font-size: 16px !important;
+}
+
+.nf-error-field-errors::before,
+.nf-error-field-errors::after {
+	content: "*"
+}
+
+/* element pass border */
+.nf-pass .ninja-forms-field {
+	border-color: rgba(0, 128, 0, 0.7) !important;
+}
+
+/* pass symbol */
+.nf-pass.field-wrap .nf-field-element:after {
+	font-size: 20px !important;
+	content: "\f00c" !important;
+	color: rgba(0, 128, 0, 0.7) !important;
 }
