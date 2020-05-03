@@ -72,6 +72,11 @@ footer .theme-by,
 
 /* Contact Form ------------------------------------- */
 
+/* form title */
+.nf-form-title h3 {
+	display: none;
+}
+
 /* field labels */
 .nf-form-layout .nf-field-label label {
 	font-weight: 300;
@@ -94,13 +99,31 @@ footer .theme-by,
 	background-color: black;
 }
 
-/* error messages */
+/* hide input field arrows:
+	Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
-.nf-form-fields-required,
-.ninja-forms-req-symbol {
+/* hide input field arrows:
+	Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* required fields message */
+.nf-form-fields-required {
 	display: none;
 }
 
+/* required asterisks */
+.ninja-forms-req-symbol {
+	color: black !important;
+}
+
+/* error message */
 .nf-after-field .nf-error-msg {
 	font-size: 14px !important;
 	font-weight: 400 !important;
@@ -136,4 +159,11 @@ footer .theme-by,
 	font-size: 20px !important;
 	content: "\f00c" !important;
 	color: rgba(0, 128, 0, 0.7) !important;
+}
+
+/* submission confirmation response message */
+.nf-response-msg p {
+	font-size: 18px;
+	color: black;
+	font-weight: 300;
 }
