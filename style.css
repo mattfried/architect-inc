@@ -77,6 +77,16 @@ footer .theme-by,
 
 /* Contact Form ------------------------------------- */
 
+.contact-address p {
+	margin: 4px 0;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.contact-address .contact-phone {
+	margin-top: 12px;
+}
+
 /* form title */
 .nf-form-title h3 {
 	display: none;
