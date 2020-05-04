@@ -37,6 +37,11 @@ footer .theme-by,
 	margin-bottom: 20px;
 }
 
+.social-icons a:hover {
+	border-color: white;
+	opacity: 0.7;
+}
+
 .social-icons a img {
 	min-width: 20px;
 	max-width: 20px;
@@ -97,6 +102,7 @@ footer .theme-by,
 .nf-form-layout nf-fields-wrap nf-field:last-child .nf-field-element .nf-element:hover {
 	color: white;
 	background-color: black;
+	cursor: pointer;
 }
 
 /* hide input field arrows:
