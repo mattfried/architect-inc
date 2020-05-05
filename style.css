@@ -15,8 +15,10 @@
 /* Header & Footer ------------------------------------- */
 
 /* header/footer font size/colors */
-footer a {
-	border-bottom: .1rem solid transparent;
+
+footer p .site-name,
+footer p .site-name:hover {
+	border-bottom: none;
 }
 
 footer p {
@@ -24,8 +26,8 @@ footer p {
 	font-weight: 500;
 }
 
-footer p + p a:hover {
-	border-bottom-color: rgba( 0, 0, 0, .35 );
+footer .theme-by a:hover {
+	border-bottom: .1rem solid rgba( 0, 0, 0, .35 );
 }
 
 footer .theme-by,
