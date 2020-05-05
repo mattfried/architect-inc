@@ -11,6 +11,16 @@
   ** Theme customization starts here **
 ----------------------------------------------------------------------------------- */
 
+/* Base ------------------------------------- */
+
+p {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+
+
+
 
 /* Header & Footer ------------------------------------- */
 
@@ -104,14 +114,20 @@ footer .theme-by,
 
 /* Contact Form ------------------------------------- */
 
+.contact-address {
+	margin-bottom: 64px;
+}
+
 .contact-address p {
 	margin: 4px 0;
-	font-size: 18px;
-	font-weight: 300;
 }
 
 .contact-address .contact-phone {
 	margin-top: 12px;
+}
+
+.nf-form-cont {
+	margin-top: 64px;
 }
 
 /* form title */
