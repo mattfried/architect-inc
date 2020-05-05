@@ -11,16 +11,17 @@
   ** Theme customization starts here **
 ----------------------------------------------------------------------------------- */
 
-p {
-	font-size: 16px;
-	font-weight: 300;
-}
 
 /* Header & Footer ------------------------------------- */
 
 /* header/footer font size/colors */
 footer a {
 	border-bottom: .1rem solid transparent;
+}
+
+footer p {
+	font-size: 16px;
+	font-weight: 500;
 }
 
 footer p + p a:hover {
