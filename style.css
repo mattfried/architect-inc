@@ -75,17 +75,25 @@ footer .theme-by,
 
 /* work project excerpt */
 .page-header .excerpt,
-.meta a {
+.project-category a {
 	font-weight: 300;
-	font-size: 20px;
+	color: rgba(0, 0, 0, 0.75);
+	font-size: 18px;
+}
+
+.page-header .excerpt {
+	margin-bottom: 10px;
 }
 
 .page-header .meta {
 	margin-top: 0;
 }
 
-.meta a {
-	color: black;
+@media ( max-width: 620px ) {
+	.page-header .excerpt,
+	.project-category a {
+		font-size: 16px;
+	}
 }
 
 

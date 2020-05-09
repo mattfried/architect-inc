@@ -21,7 +21,7 @@ if ( have_posts() )  :
 					// Only output post meta data on single
 					if ( is_single() ) : ?>
 
-						<div class="meta">
+						<div class="meta project-category">
 
 							<?php
 							echo __( '', 'hamilton' ) . ' '; the_category( ', ' );
