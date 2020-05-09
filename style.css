@@ -233,6 +233,26 @@ input[type=number] {
 
 /* Related Posts ------------------------------------- */
 
+.related-posts-separator {
+	margin: 75px auto;
+}
+
 .related-posts-wrapper {
 	width: 75%;
+	margin-top: 0;
+}
+
+.related-posts-heading {
+	font-weight: 300;
+	margin-top: 0;
+}
+
+@media ( max-width: 620px ) {
+	.related-posts-separator {
+		margin: 50px auto;
+	}
+
+	.related-posts-wrapper {
+		margin-top: 0;
+	}
 }

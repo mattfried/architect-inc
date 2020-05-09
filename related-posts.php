@@ -53,7 +53,11 @@ $related_posts = get_posts( $related_posts_args );
 
 if ( $related_posts ) : ?>
 
+	<hr class="wp-block-separator related-posts-separator">
+
 	<div class="related-posts-wrapper section-inner">
+
+		<h5 class="related-posts-heading">More Work:</h5>
 
 		<div class="related-posts group">
 
