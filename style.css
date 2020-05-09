@@ -226,3 +226,13 @@ input[type=number] {
 	color: black;
 	font-weight: 300;
 }
+
+
+
+
+
+/* Related Posts ------------------------------------- */
+
+.related-posts-wrapper {
+	width: 75%;
+}
