@@ -54,6 +54,7 @@ if ( have_posts() )  :
 				<?php $postslist = get_posts( array(
 			    'order'          => 'ASC',
 			    'orderby'        => 'rand',
+					'numberposts'		 => '-1',
 					// Display posts only in certain category option:
 					// 'category_name'  =>	'category-slug'
 				) );
