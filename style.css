@@ -164,14 +164,15 @@ footer .theme-by,
 }
 
 
-
+/* Ninja Contact Form ---------- */
 .nf-form-cont {
 	margin-top: 64px;
 }
 
 /* form title */
 .nf-form-title h3 {
-	display: none;
+	font-size: 20px;
+	font-weight: 500;
 }
 
 /* field labels */
