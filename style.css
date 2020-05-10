@@ -155,12 +155,12 @@ footer .theme-by,
 	margin-bottom: 5px;
 }
 
-.careers-email {
-	color: rgba(0, 0, 0, 0,75);
+.careers-email:hover {
+	color: rgba(0, 0, 0, 0.55);
 }
 
-.careers-email:hover {
-	color: black
+.careers-email a:hover {
+	border-bottom: 1px solid currentColor;
 }
 
 
