@@ -115,6 +115,24 @@ footer .theme-by,
 	font-weight: 400;
 }
 
+.hide-device {
+	display: none;
+}
+
+.hide-desktop {
+	display: block;
+}
+
+@media ( max-width: 620px ) {
+	.hide-device {
+		display: block;
+	}
+
+	.hide-desktop {
+		display: none;
+	}
+}
+
 
 
 
