@@ -151,6 +151,20 @@ footer .theme-by,
 	margin-top: 12px;
 }
 
+.careers-snippet {
+	margin-bottom: 5px;
+}
+
+.careers-email {
+	color: rgba(0, 0, 0, 0,75);
+}
+
+.careers-email:hover {
+	color: black
+}
+
+
+
 .nf-form-cont {
 	margin-top: 64px;
 }
