@@ -116,20 +116,20 @@ footer .theme-by,
 }
 
 .hide-device {
-	display: none;
+	display: block;
 }
 
 .hide-desktop {
-	display: block;
+	display: none;
 }
 
 @media ( max-width: 620px ) {
 	.hide-device {
-		display: block;
+		display: none;
 	}
 
 	.hide-desktop {
-		display: none;
+		display: block;
 	}
 }
 
